@@ -1,0 +1,21 @@
+p::before {
+    content: "uhhh";
+    color: pink;
+    font-weight: bold;
+}
+
+p:hover::before {
+    content: "hovered? why?";
+    color: LightPink; /* Change to your preferred color */
+}
+
+p::after {
+    content: "okay";
+    color: HotPink;
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: white;
+    color: DeepPink;
+}
