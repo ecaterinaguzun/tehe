@@ -97,7 +97,7 @@ h3 {
 
 .greyscale-effect {
     filter: grayscale(100%);
-    filter: brightness(10);
+    filter: brightness(0.5);
 }
 
 
