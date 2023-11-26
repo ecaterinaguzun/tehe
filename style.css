@@ -1,24 +1,26 @@
-p::before {
+/* Paint me! styles */
+.paint::before {
     content: "uhhh";
     color: pink;
     font-weight: bold;
 }
 
-p:hover::before {
+.paint:hover::before {
     content: "hovered? why?";
     color: LightPink; 
 }
 
-p::after {
+.paint::after {
     content: "okay";
     color: HotPink;
     font-weight: bold;
 }
 
-p::selection {
+.paint::selection {
     background-color: white;
     color: DeepPink;
 }
+
 
 /* Visibility property */
 .visible {
