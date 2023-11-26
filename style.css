@@ -104,6 +104,15 @@ h3 {
     margin-bottom: 20px;
 }
 
+.ok{
+  transition: 0.5s;
+}
+
+.ok:active{
+  width:800px
+}
+  
+
 .content {
     color: rgb(188, 143, 143);
     margin-bottom: 20px;
