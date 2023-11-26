@@ -5,7 +5,25 @@ body {
   margin: 20px;
   padding: 20px;
 }
+.nav-bar {
+    background-color: DeepPink;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
+.nav-bar a {
+    float: left;
+    display: block;
+    color: BlanchedAlmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: Pink;
+    color: MistyRose;
+}
 /* Paint me! styles */
 .paint::before {
     content: "uhhh";
