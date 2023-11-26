@@ -105,11 +105,11 @@ h3 {
 }
 
 .ok{
-  transition: 0.5s;
+  transition: 5s;
 }
 
 .ok:active{
-  width:800px
+  width:800px;
 }
   
 
