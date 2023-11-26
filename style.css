@@ -97,8 +97,7 @@ h3 {
 
 .greyscale-effect {
     filter: grayscale(100%);
+    filter: brightness(10);
 }
 
-.invert-effect {
-    filter: invert(100%);
-}
+
