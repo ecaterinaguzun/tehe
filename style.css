@@ -6,7 +6,9 @@ p::before {
 
 p:hover::before {
     content: "hovered? why?";
-    color: LightPink; /* Change to your preferred color */
+    color: LightPink; 
+    background-color:PaleVioletRed;
+    color:white;/* Change to your preferred color */
 }
 
 p::after {
