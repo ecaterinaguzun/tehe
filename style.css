@@ -1,3 +1,10 @@
+body {
+  background-color: SeaShell;
+  color: black;
+  font-family: 'Century Gothic', sans-serif;
+  margin: 20px; /* Fixed typo in margin property */
+  padding: 20px;
+}
 /* Paint me! styles */
 .paint::before {
     content: "uhhh";
